@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traductor a Binario</title>
+    <title>Traductor de Texto y Binario</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Traductor de Texto a Binario</h1>
+        <h1>Traductor de Texto y Binario</h1>
+        
         <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>
-        <button id="translateButton">Traducir</button>
+        <button id="translateToBinaryButton">Traducir a Binario</button>
+        
         <h2>Resultado en Binario:</h2>
         <p id="outputBinary"></p>
+        
+        <textarea id="inputBinary" placeholder="Escribe tu binario aquí..."></textarea>
+        <button id="translateToTextButton">Traducir a Texto</button>
+        
+        <h2>Resultado en Texto:</h2>
+        <p id="outputText"></p>
     </div>
     <script src="script.js"></script>
 </body>
